@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* width: 100%; */
+  } 
+  
+  body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+      font-family: "Baskervville, Roboto, sans-serif";
+      font-optical-sizing: auto;
+      font-weight: 300;
+      font-style: normal;
+    }
+
+    .baskervville-regular {
+        font-family: "Baskervville", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+.top-nav{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    background-color: #2E0000;
+    height: 35px;
+width: 100vw;
+
+    align-items: center;
+}
+
+.top-nav span{
+    margin-left: 20px;
+    color: white;
+    font-size: 14px;
+}
+ .icons-header {
+        display: flex;
+        flex-direction: row;
+        align-items: right;
+      }
