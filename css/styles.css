@@ -41,3 +41,25 @@ width: 100vw;
         flex-direction: row;
         align-items: right;
       }
+
+      #logo {
+        width: 100px;
+      }
+
+      nav {
+        display: flex;
+        padding: 10px 50px;
+        align-items: center;
+        position: fixed;
+        width: 100vw;
+        /* z-index: 500; */
+      }
+      
+      #nav-links ul li  {
+        display: flex;
+        flex-direction: column;
+        column-gap: 40px;
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+      }
